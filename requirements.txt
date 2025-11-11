@@ -1,0 +1,23 @@
+# --- Core Framework ---
+fastapi==0.115.2
+uvicorn[standard]==0.32.1
+
+# --- Database (SQLAlchemy + SQLite/Postgres ready) ---
+SQLAlchemy==2.0.35
+
+# --- Authentication / Security ---
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+
+# --- Cryptography (for Fernet encryption, webhook signatures) ---
+cryptography==43.0.1
+
+# --- Environment Variable Management ---
+python-dotenv==1.0.1
+
+# --- Data Validation / Schema Support ---
+pydantic==2.9.2
+pydantic-settings==2.4.0
+
+# --- Optional Utilities (only if you use them) ---
+requests==2.32.3
